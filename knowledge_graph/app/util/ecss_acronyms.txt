@@ -1,0 +1,1127 @@
+A/D | analogue to digital
+AAD | area array device
+ABCL | as built configuration list
+ABM | apogee boost motor
+AC | alternating current
+ACK | acknowledge
+ACP | ASIC and FPGA control plan
+ACS | attitude control system
+ADC | analogue digital converter
+ADP | acceptance data package 
+AE | auroral electrojet
+AFT | abbreviated functional test
+AGC | automatic gain control
+AIT | assembly integration and test
+AITP | assembly integration and test plan
+AIV | assembly integration and verification
+AIVP | assembly integration and verification plan
+AKE | absolute knowledge error
+AL | acceptance test load
+ALARA | as low as reasonably achievable
+AM | amplitude modulation
+AME | absolute measurement error
+AMS | aerospace material specification
+AO | atomic oxygen
+AOC | auto orthogonality check
+AOCS | attitude and orbit control system
+AOI | automated optical inspection
+AOQ | average outgoing quality
+AOS | advanced orbiting systems
+APE | absolute performance error
+API | application programming interface
+APID | application process identifier
+APP | a posteriori probability
+APS | active pixel sensor
+APTC | ambient pressure thermal cycling
+AQL | acceptance quality level
+AR | acceptance review
+ARC | anti-reflection coating
+ARF | alignment reference frame
+ARMA | auto-regressive moving average
+ARME | absolute rate measurement error
+ARPT | analysis report
+ARQ | automatic repeat request
+ARW | angular random walk
+ASIC | application specific integrated circuit
+ASSP | application specific standard product
+AST | autonomous star tracker
+ATB | avionics test bench
+ATC | acquisition transfer confirmation
+ATR | acquisition transfer request
+ATR | attenuated total reflection
+ATV | automated transfer vehicle
+AVC | arc voltage control
+AVT | acceptance vibration test
+AWGN | additive white Gaussian noise
+AWN | angular white noise
+B/L | baseline
+BAI | residual burst strength after impact
+BB | breadboard
+BCI | bulk cable injection
+BCRS | barycentric celestial reference system
+BDM | bi-level discrete monitor
+BER | bit error rate
+BFN | beam forming network
+BGA | ball grid array
+BIT | built-in testing
+BIs | biological indicators
+BJT | bipolar junction transistor
+BM | bus monitor
+BOL | beginning-of-life
+BOM | bill of materials
+BRF | boresight reference frame
+BRYNTRN | Baryon transport model
+BPSK | binary phase shift keying
+BSC | bare solar cell
+BSD | bi-directional serial digital
+BSM | bi-level switch monitor
+BTE | Boltzmann transport equation
+BTG | bit transition generator
+BiCMOS | bipolar complementary metal oxide semiconductor
+C/N | carrier to noise ratio
+C&CCP | cleanliness and contamination control plan
+C1 | concentration expressed in ppm
+CA | construction analysis
+CAAR | compatibility assessment and applicability report
+CAD | computer aided design
+CADU | channel access data unit
+CAE | computer aided engineering
+CAGE | commercial and government entity
+CAN | controller area network
+CBCP | current baseline cost plan
+CBGA | ceramic ball grid array
+CBS | cost breakdown structure
+CC&M | common cause and common failure mode analysis
+CCB | configuration control board
+CCD | charge coupled device
+CCE | charge collection efficiency
+CCGA | ceramic column grid array
+CCHP | constant conductance heat pipe
+CCN | contract change notice
+CCP | component control plan
+CD | compact disk
+CDL | capillary driven loop
+CDM | charge device model
+CDR | critical design review 
+CDS | CCSDS day segmented
+CEASE | compact environmental anomaly sensor
+CEPXS/ONELD | One-dimensional Coupled Electron-Photon Multigroup Discrete Coordinates Code System
+CEX | charge exchange
+CF | communication frame
+CFC | chloro fluoro carbons
+CFD | computational fluid dynamics
+CFU | colony forming unit
+CFISRD | customer furnished items and services requirements document
+CGA | column grid array
+CIDL | configuration item data list
+CI± | chemical ionization
+CIL | critical items list
+CLA | centre line average
+CLTU | communications link transmission unit
+CMC | ceramic matrix composites
+CME | coefficient of moisture expansion
+CMIF | complex mode indicator function
+CMM | carrier modulation mode
+CMMI | capability maturity model integration
+CMOS | complementary metal oxide semiconductor
+COB-ID | communication object identifier
+COG | centre of gravity
+COM | centre of mass
+COP | communications operation procedure
+COPC | composite over-wrapped pressurized component
+COPS | composite over-wrapped pressurized structures
+COPV | composite overwrapped pressure vessel
+COSPE | composite over-wrapped special pressurized equipment
+COTS | commercial-off-the-shelf 
+CPDU | command pulse distribution unit
+CPE | chlorinated poly ethylene
+CPIA | chemical propulsion information agency
+CPL | capillary pumped loop
+CPM | critical path method
+CPPA | centralized parts procurement agent
+CPS | composite pressurized structure
+CPU | central processing unit
+CPV | composite pressure vessel
+CRA | cleaning requirement analysis
+CREME | cosmic ray effects on microelectronics
+CRES | corrosion-resistant steel
+CRS | cleanliness requirement specification
+CS | conducted susceptibility
+CSAD | communication system analysis document
+CSADD | communication system architectural design document
+CSBD | communication system baseline definition
+CSD | coordinate systems document
+CSDA | continuous slowing down approximation range
+CSDDD | communication system detailed design document
+CSI | customer source inspection
+CSOM | communication system operations manual
+CSPD | communication system profile document
+CSR | crew station review 
+CSRD | communication system requirements document
+CSV | comma-separated values
+CSVP | communication system verification plan
+CTA | circuit type approval
+CTI | charge transfer inefficiency
+CTLP | compatibility testing for liquid propulsion
+CTOD | crack tip opening displacement
+CTR | current transfer ratio
+CTS | cleaning technique selection
+CTT | consent to transport
+CVCM | collected volatile condensable material
+CVG | coverglass
+CVD | chemical vapour deposition
+CWP | control work package
+CZT | cadmium zinc telluride
+CoC | certificate of conformance
+CoG | centre of gravity
+CoMAC | coordinate modal assurance criterion
+CoM | centre of mass
+Cu | copper
+D/A | digital to analogue
+DAC | digital-to-analogue converter
+DAS | data acquisition system
+DB | design baseline
+DBC | direct bonded copper
+DC | direct current
+DCB | development configuration baseline
+DCI | decompression illness
+DCL | declared components list
+DCP | development cost plan
+DCR | documentation change request
+DDC | distribution data counter
+DDEF | displacement damage equivalent fluence
+DDF | design definition file
+DDP | design development plan
+DDR | detailed design review
+DDREF | dose and dose rate effectiveness factor
+DEC | dynamic evaluation circuit
+DF | definition file
+DFMR | design for minimum risk
+DGD | direct gradient discharge
+DHM | digital human model
+DHMR | dry heat microbial reduction
+DHS | data handling system
+DIW | deionised water
+DJ | justification file 
+DJF | design justification file
+DKth | threshold stress-intensity range
+DL | design load
+DLAT | destructive lot acceptance test
+DMA | direct memory access
+DML | declared materials list
+DN | detection number
+DNase | Deoxyribonuclease
+DOD | depth of discharge
+DOF | degree of freedom
+DPA | destructive physical analysis
+DPAK | diode package
+DR | design rules
+DRAM | dynamic random access memory
+DRB | delivery review board
+DRC | design rule check
+DRD | document requirements definition
+DRIFT | diffuse reflection infrared Fourier transform
+DRL | document requirements list
+DRS | data relay satellite
+DRVID | differenced range versus integrated Doppler
+DSC | differential scanning calorimetry
+DS-DE | data-strobe differentially ended
+DSNU | dark signal non-uniformity
+DSP | digital signal processing
+DTA | differential thermal analysis
+DTD | distribution transfer descriptor
+DTGS | deuterated triglycine sulphate IR detector
+DTM | density and temperature model
+DUL | design ultimate load
+DUNS | data universal numbering system
+DUT | device under test
+DVG | direct voltage gradient
+DVP | design validation plan
+DVT | design verification test
+DYL | design yield load
+DW | data word
+DWV | dielectric withstanding voltage
+DXF | drawing exchange format
+DoF | degree of freedom
+E/S | Earth station
+EARM | ECSS applicable requirements matrix
+EB | electron beam
+EBNF | extended Backus-Naur form
+EBW | electron beam welding
+ECEF | Earth centred Earth frame
+ECL | emitter-coupled logic
+ECLSS | ECLS system
+ECSL | environmental control and life support
+ECSS | European Cooperation for Space Standardization
+EDA | electronic design automation
+EDIF | electronic design interchange format
+EDM | electro discharge machining
+EDS | electronic data sheet
+EEA | Earth exclusion angle
+EED | electro-explosive device
+EEE | electronic electrical electromechanical
+EEP | error end of packet
+EEPROM | electrically erasable programmable read only memory
+EES | Earth Exploration-Satellite service
+EFR | established failure rate
+EGS | Electron Gamma Shower Monte Carlo radiation transport code
+EGSE | electrical ground support equipment
+EJMA | expansion joints manufacturer association
+ELDRS | enhanced low dose rate sensitivity
+ELR | end-of-life review
+EM | engineering model
+EMC | electromagnetic compatibility
+EMCAB | electromagnetic compatibility advisory board
+EMCCP | electromagnetic compatibility control plan
+EMCY | Emergency Object
+EMEVP | electromagnetic effects verification plan
+EMEVR | electromagnetic effects verification report
+EMI | electromagnetic interference
+EMISM | electromagnetic interference safety margin
+EMU | EVA mobility unit
+EOL | end-of-life
+EOP | end of packet
+EP | electric propulsion
+EPDM | ethylene propylene diene monomer
+EPFM | elastic-plastic fracture mechanics
+EPPL | European preferred parts list
+EPR | ethylene propylene rubber
+EPROM | erasable programmable read only memory
+EPS | electrical power system
+EQM | engineering qualification model
+EQSR | equipment qualification status review
+ESC | escape character
+ESCC | European Space Components Coordination
+ESD | electrostatic discharge
+ESMDB | European Space Materials Database
+ESDU | engineering sciences data unit
+ESH | equivalent Sun hour
+ESP | Model	Emission of Solar Protons Model
+ESR | equivalent series resistance
+ETC | estimate to completion
+ETO | ethylene oxide
+EUT | equipment under test
+EVA | extravehicular activity
+EXPL | expression language
+Ea | activation energy
+FAD | failure assessment diagram
+FAI | first article inspection
+FAR | flight acceptance review
+FARM | frame acceptance and reporting mechanism
+FASTRAD | sectoring analysis software for space radiation effects
+FAT | factory acceptance testing
+FCB | functional configuration baseline
+FCIL | fracture-critical items list
+FCI | fracture critical item
+FCT | flow control token
+FCL | fold-back current limiter
+FCP | flight control procedure
+FCV | functional configuration verification
+FDIR | failure detection isolation and recovery
+FDU | telecommand frame data unit
+FE | finite element
+FEA | finite element analysis
+FECF | Frame Error Control Field
+FEEP | field emission electric propulsion
+FEPS | Fiche d’étude de problème soulevé
+FER | frame error rate
+FET | field effect transistor
+FGSE | fluidic ground support equipment
+FESL | failure effect severity list
+FFP | firm fixed price
+FFT | full functional test
+FID | function identifier
+FIFO | first in first out
+FIR | finite impulse response
+FIT | failure in time
+FL | deliverable output force
+FLLI | fracture-limited life item
+FLLIL | fracture-limited life items list
+FM | flight model
+FMEA | failure modes and effects analysis
+FMECA | failure mode effects and criticality analysis
+FMM | functional mathematical model
+FMON | functional monitoring
+FOD | foreign object debris
+FOM | flight operations manual
+FOV | field of view
+FoV | field of view
+FPGA | field programmable gate array
+FPN | fix pattern noise
+FQR | flight qualification review
+FR | friction torque or force
+FRA | feasibility and risk analysis report
+FRAC | frequency response assurance criterion
+FRF | frequency response function
+FRP | fibre reinforced plastics
+FS | functional specification
+FSDP | flight safety data package
+FSI | fluid structure interaction
+FSW | friction stir welding
+FT | fault tree
+FTA | fault tree analysis
+FTIR | Fourier transform infrared
+FTP | file transfer protocol
+FUV | far ultraviolet
+Fmin | minimum actuator force required
+Ftu | design tensile ultimate strength
+Fty | design tensile yield strength
+G&A | general & administrative
+GCR | galactic cosmic ray
+GCRS | geocentric celestial reference system
+GDIR | general design and interface requirement
+GDS | graphic design system
+GEANT | Geometry and Tracking Monte Carlo radiation transport code
+GEO | geostationary orbit
+GMAW | gas metal arc welding
+GMM | geometrical mathematical model
+GMSK | Gaussian minimum shift keying
+GND | ground
+GNC | guidance navigation and control
+GNSS | global navigation satellite system
+GOES | Geostationary Operational Environment Satellite
+GOx | gaseous oxygen
+GPS | global positioning system
+GS | ground segment
+GSE | ground support equipment
+GSO | geostationary orbit
+GRAM | global reference atmosphere model
+GRME | generalized relative measurement error
+GSAITP | ground segment AIT plan
+GSC | ground segment customer
+GSCDR | ground segment critical design review
+GSCRD | ground segment customer requirements document
+GSDDF | ground segment design definition file
+GSDJF | ground segment design justification file
+GSDP | ground safety data package
+GSEP | ground segment engineering plan
+GSM | geocentric solar magnetospheric co-ordinates
+GSPDR | ground segment preliminary design review
+GSQR | ground segment qualification review
+GSRD | ground segment requirements document
+GSS | ground segment supplier
+GSSRR | ground segment system requirements review
+GSVP | ground segment verification plan
+GTAW | gas tungsten arc welding
+H/W | hardware
+HW | hardware 
+HAST | highly accelerated stress test
+HAZ | heat affected zone
+HBM | human body model
+HC-HPC | high current high power command
+HCD | human centred design
+HCI | human-computer interaction
+HCl | chloride acid 
+HDI | high density interconnect
+HDL | hardware description language
+HDPE | high density polyethylene
+HEO | highly eccentric orbit
+HETC | High Energy Transport Code
+HITL | human-in-the-loop
+HK | housekeeping
+HLCL | heater latching current limiter
+HMI | human machine interface
+HMT | hexamethylenetetramine
+HPGe | high-purity germanium
+HP | heat pipe
+HPD | heat pipe diode
+HRC | Rockwell hardness
+HS | hot structure
+HSIA | hardware-software interaction analysis
+HTIF | hybrid circuit technology identification form
+HTRB | high-temperature reverse bias
+HV-HPC | high voltage high power command
+HVAC | heating ventilation air conditioning and cooling
+HWM | horizontal wind model
+HZE | particle of high atomic mass and high energy 
+HY | hysteresis torque or force
+I/F | interface
+I/O | input/output
+I-V | current-voltage
+ICC | internal contamination control
+ICD | interface control document
+IDD | interface definition document
+IDM | information documentation management
+IDMP | input data for mask or programming file generation
+IETF | internet engineering task force
+IF | intermediate frequency
+IFL | interpretation function language
+IGBT | insulated gate bipolar transistor
+IID | interface identification document
+ILS | integrated logistic support
+IMF | interplanetary magnetic field
+INS | inspection
+IPA | isopropyl alcohol
+IOOR | in-orbit operations review
+IR | Infrared
+IRD | interface requirements document
+IRR | infrared reflector
+IRF | inertial reference frame
+IRPP | integrated rectangular parallelepiped
+IRPT | inspection report
+IRS | improved reduction system
+IRTS | Integrated Radiation Transport Suite
+ISD | input serial digital
+ISOCAM | ISO infrared Camera
+ISV | independent software validation
+ISVV | independent software verification and validation
+ITT | invitation to tender
+ITRF | international terrestrial reference frame
+ITRS | international terrestrial reference system
+ITS | Integrated Tiger Series coupled electron-photon radiation transport codes
+ITU-RR | ITU - Radio Regulations
+IVA | intra-vehicular activity
+IVG | inverted voltage gradient
+Imp | maximum power current
+Iop | current at operational voltage
+Isc | short-circuit current
+IVGD | inverted voltage gradient discharge
+InP | indium posphide
+JFET | junction field effect transistor
+JPEG | joint photographic experts group
+JTAG | joint test action group
+KA | acceptance test factor
+KC | fracture toughness for stress conditions other than plane strain
+KE | kinetic energy
+KIC | plane strain fracture toughness
+KISCC | threshold stress-intensity factor for stress-corrosion cracking
+KIc | fracture toughness
+KIscc | stress-corrosion cracking threshold stress intensity factor
+KQ | qualification test factor
+Kic | plane strain critical stress intensity factor
+Kiscc | plane strain critical stress intensity factor for a specific environment
+KIP | key inspection point
+LAT | lot acceptance test
+L-Char | link-character
+L/V | launch vehicle
+LAN | local area network
+LBB | leak before burst
+LBW | laser beam welding
+LCCC | leadless ceramic chip carrier 
+LCL | latching current limiter
+LDEF | long duration exposure facility
+LD | logistic delay
+LDPE | low density polyethylene
+LDUT | large data unit transfer
+LED | light emitting diode
+LEF | load enhancement factor
+LEFM | linear elastic fracture mechanics
+LEO | low Earth orbit
+LET | linear energy transfer
+LF | low frequency
+LFW | linear friction welding
+LHI | Light Heavy Ion Transport code
+LHC | left hand circular
+LHP | loop heat pipe
+LISN | line impedance stabilization network
+LL | limit load
+LISA | Laser Interferometer Space Antenna
+LIT | listen-in test
+LLIF | lower layer interface
+LNT | linear no-threshold
+LO | local oscillator
+LOCOS | local oxidation of silicon
+LOS | line of sight
+LOx | liquid oxygen
+LRR | launch readiness review
+LPC | low power command
+LPC-P | low power command pulsed
+LPC-S | low power command static
+LPM | lumped parameter method
+LPS | liquid propulsion system
+LSB | less significant bit
+LVDT | linear voltage displacement transducer
+LQ | limiting quality
+LVT | lot validation testing
+LSP | logistics support plan
+LTI | linear time invariant
+LTRB | low-temperature reverse bias
+LU | latch up
+LV-HPC | low voltage high power command
+LVD | low voltage directive
+LVDS | low voltage differential signalling
+LVS | layout vs. schematic check
+LWIR | long-wavelength infrared
+Len | length
+MAC | modal assurance criterion
+MAH | model of the high atmosphere
+MAIT | manufacturing assembly integration and test
+MAPTIS | Materials and Processes Technical Information System 
+MAR | mission analysis report
+MAP | multiplexer access point
+MAV | mechanism analytical verification
+MASTER | meteoroid and space debris terrestrial environment reference model
+MB | main bus
+MCD | molecular column density
+MCF | modal confidence factor
+MCGA | multichip column grid array
+MCNP | Monte Carlo N-Particle Transport Code
+MCNPX | Monte Carlo N-Particle Extended Transport Code
+MCP | microchannel plate
+MCR | mission close-out review
+MCS | mission control system
+MCU | multiple cell upset
+MDE | measurement drift error
+MDOF | multiple degree of freedom
+MDP | maximum design pressure
+MDR | mission definition review
+MDT | mean down time
+MEA | Moon exclusion angle
+MEC | mission experiment centre
+MEK | methyl ethyl keton
+MEO | medium Earth orbit
+MEOP | maximum expected operating pressure
+MET | Marshall engineering thermosphere model
+MGSE | mechanical ground support equipment
+MGT | management file
+MIC | materials identification card 
+MICAP | Monte Carlo Ionization Chamber Analysis Package
+MICD | mechanical interface control document
+MIF | mode indicator function
+MIG | metal inert gas
+MIL-DTL | military detail specification
+MIL-PRF | military performance specification
+MIMO | multiple input - multiple output
+MIP | mandatory inspection point
+MLAR | multi-layer anti-reflection coating
+MLI | multi-layer insulation
+MLT | magnetic local time
+MMC | metal matrix composite
+MMH | monomethyl hydrazine
+MMI | man-machine interface 
+MKE | mean knowledge error
+MM | machine model
+MME | mean measurement error
+MMIF | multi-variate mode indicator function
+MMOP | Multilateral Medical Operations Panel
+MOB | mission objective baseline
+MOC | molecular contamination
+MOCD | mission operations concept document
+MOI | moment of inertia
+MON | mixed oxides of nitrogen
+MOP | mission operations plan
+MOSFET | metal oxide semiconductor field effect transistor
+MOTS | modified off-the-shelf
+MPC | metallic pressurized component
+MPD | magneto-plasma-dynamic thruster
+MPDL | mechanical pump driven loop
+MPE | mean performance error
+MPPT | maximum power point tracker
+MPS | metallic pressurized structure
+MPV | metallic pressure vessel
+MPW | magnetic pulse welding
+MPa | Megapascal
+MRE | measurement reproducibility error
+MRD | mission requirements document
+MRF | mechanical reference frame
+MRR | manufacturing readiness review
+MRT | mission readiness tests
+MS/S | mega symbols per second
+MSB | most significant bit
+MSPE | metallic special pressurized equipment
+MSIS | mass spectrometer and incoherent scatter
+MST | modal survey test
+MSVP | safety critical mechanisms verification plan
+MSVR | safety critical mechanisms verification report
+MTA | milestone trend analysis
+MTBO | mean time between outages
+MTC | milestone trend chart
+MTTFF | mean time to first failure
+MTBF | mean time between failure
+MTTF | mean time to failure
+MTTR | mean time to repair
+MTTO | mean time to outage
+MULASSIS | Multi-Layered Shielding Simulation Software
+MUM | mechanism user manual
+Msps | mega symbol per second
+MUT | mean up time
+MWIR | medium-wavelength infrared
+MWt | molecular weight
+Mb/s | Megabits per second
+MoI | moment of inertia
+MoM | minutes of meeting
+N-Char | normal-character
+NA | not applicable
+N/A | not applicable
+NBF | neutral buoyancy facility 
+NEO | near earth object 
+NCC | netlist comparison check
+NCR | nonconformance report
+NDE | non-destructive evaluation
+NDI | non-destructive inspection
+NDT | non-destructive test
+NGD | normal gradient discharge
+NHLBB | non-hazardous leak before burst
+NIEL | non-ionizing energy loss
+NID | non-ionising dose
+NMOS | N-channel metal oxide semiconductor
+NMT | network management
+NPN | bipolar junction transistor with P-type base
+NPSP | net positive suction pressure
+NRB | nonconformance review board
+NRZ | non return to zero
+NSST | Neutral Salt Spray Test
+NTO | nitrogen tetroxide
+NUV | near ultraviolet
+NVR | non-volatile residue
+OBC | on-board computer
+NW | negative window
+OAR | operations anomaly report
+OBCP | on-board control procedure
+OBCP | original baseline cost plan
+OBDH | on-board data handling
+OBSM | on-board software maintenance
+OBSW | on-board software
+OBT | on-board time
+OF | obscuration factor
+OGSE | optical ground support equipment
+OBAP | on-board application procedure
+OBOP | on-board operations procedure
+OBS | organizational breakdown structure
+OC | operations customer
+OCC | operational control centre
+OCRD | operations customer requirements document
+ODE | one-dimensional equilibrium
+OEP | operations engineering plan
+OHA | operating hazard analysis
+OIT | oxygen induction time
+OITP | oxygen induction temperature
+OPS | operations
+OQR | operational qualification review
+OSD | output serial digital
+OSPL | overall sound pressure level
+OQPSK | offset quadrature phase shift keying
+ORR | operational readiness review
+OSI | open system interconnection
+OTP | operations training plan
+OVP | operational validation plan
+OSTC | on station thermal cycling
+OTM | output transformation matrix
+OTS | off-the-shelf
+P/L | payload
+PA | product assurance
+PAD | part approval document
+PAF | product assurance file
+P&R | place and route
+PACT | power augmented catalytic thruster
+PAM | pulse amplitude modulation
+PCB | printed circuit board
+PCDU | power control and distribution unit
+PCN | process change notice
+PBS | Phosphate buffered saline solution
+PCS | packet check sequence
+PCU | power conditioning unit
+PCV | physical configuration verification
+PDE | performance drift error
+PDM | precedence diagram method
+PDU | protocol data unit
+PDO | process data object
+PECL | pseudo-emitter-coupled logic
+PEEK | polyetheretherketone
+PEF | price escalation formula
+PEO | polar Earth orbit
+PET | polyethylene terephthalate
+PFCI | potential fracture critical item
+PFD | power flux density
+PFCIL | potential fracture-critical items list
+PGSE | pressure ground support equipment
+PHA | preliminary hazard analysis
+PFM | protoflight model
+PFO | particle fall out
+PIXIE | particle-induce X-ray emission
+PH | pressurized hardware
+PID | process identification document
+PLOP | physical layer operation procedure
+PIND | particle impact noise detection
+PLCC | plastic leaded chip carrier
+PLL | phase locked loop
+PLUTO | procedure language for users in test and operations
+PM&P | parts materials and processes
+PMCF | product manufacturing and control file
+PMAC | payment milestone achievement certificate
+PMON | parameter monitoring
+PMOS | P-channel metal oxide semiconductor
+PMT | photomultiplier tube
+PNP | bipolar junction transistor with N-type base
+POC | pseudo orthogonality check
+POGO | propulsion generated oscillations
+POM | polyoxymethylene
+PPAC | parallel plate avalanche counter
+PPM | parts per million
+PPS | polyphenylene sulfide
+PPT | pulsed plasma thruster
+PRE | performance reproducibility error
+PRD | project requirements document
+PROM | programmable read-only memory
+PRNU | photo response non-uniformity
+PRR | preliminary requirement review
+PS | pressurized structure
+PSS | procedure standard specification
+PSD | power spectral density
+PSK | phase shift keying 
+PTR | post test review
+PUM | product user manual
+PUR | polyurethane
+PUS | packet utilization standard
+PVA | photovoltaic assemblies
+PV | pressurized pressure vessel
+Pmax | maximum power
+P_max | maximum power
+PVD | physical vapour deposition
+PVF | polyvinyl fluoride
+PW | positive window
+PWM | pulse-width modulator
+Pp | peak to peak
+Ppk | process performance index
+QA | quality assurance
+QCI | quality conformance inspection
+QBSD | full quadrant back scatter electron detector
+QFN | quad flat pack no leads
+QL | qualification test load
+QTP | qualification test plan
+Qmax | maximum heat transport capability
+Q_max | maximum heat transport capability
+QM | qualification model
+QML | qualified manufacturers list
+QPSK | quadrature phase shift keying
+QR | qualification review
+QRR | qualification review report
+QSL | qualification status list
+QTR | qualification test report
+R&TTE | radio & telecommunications terminal equipment
+R-S | Reed-Solomon
+R&D | research and development
+RADLAT | radiation lot acceptance test
+RAMS | reliability availability maintainability safety
+RAR | risk assessment report
+RB | requirements baseline
+RBD | reliability block diagram
+RBE | relative biological effectiveness
+RCS | reaction control system
+RDC | relative damage coefficients
+RDM | radiation design margin
+REACH | registration evaluation authorisation of chemicals 
+REP | report
+RES | equivalent symbol rate
+RF | radio frequency
+RFCP | reduced fracture-control programme
+RFNA | red fuming nitric acid
+RFQ | request for quote
+RFT | reduced functional test
+RFA | request for approval
+RFD | request for deviation
+RFI | radio frequency interference
+RFP | request for proposal
+RFW | request for waiver
+RH | relative humidity
+RHA | radiation hardness assurance 
+RHC | right hand circular
+RGA | residual gas analysis
+RGS | reflection grating spectrometer
+RHR | right hand rule
+RHS | right handed system
+RHU | radiosisotope heater unit
+RI | refractive index
+RJ | jovian radius
+RJF | requirement justification file
+RKE | relative knowledge error
+RLCL | retriggerable latching current limiter
+RLV | reusable launch vehicle
+RME | relative measurement error
+RMAP | remote memory access protocol
+RMC | raw material certificate
+RMW | read-modify-write
+RML | recovered mass loss
+RMS | root mean square
+ROD | review of design
+ROM | read only memory
+ROM/RAM | read only memory / random access memory
+RNase | Ribonuclease
+RPDO | receive PDO
+RPP | rectangular parallelepiped
+RRPT | review of design report
+RRW | rate random walk
+RPE | relative performance error
+RSS | root-sum-square
+RTL | register transfer logic
+RTR | remote transmission request
+RTS | random telegraph signal
+RV | re-entry vehicle
+RVAC | response vector assurance criterion
+Rg | resistance to ground
+RoHS | restriction of certain hazardous substances
+RoHs | restriction of the use of certain hazardous substances
+Rs | surface resistance
+RTM | requirement traceability matrix
+RadHard | radiation hardened
+Rchs | channel symbol rate
+Ri | insulation resistance
+Rx | receiver
+S/N | signal to noise ratio
+S/C | spacecraft
+S/W | software
+SA | sub-address
+SCA | solar cell assembly
+SAD | solar array drive
+SAL | sterility assurance level
+SAP | service access point
+SAS | solar array simulator
+SAU | smallest addressable unit
+SBD | surface barrier detector
+SCEF | stress-corrosion evaluation form
+SCET | spacecraft elapsed time
+SCF | software configuration file
+SCI | scaleable coherent interface 
+SCOE | special check-out equipment
+SDBP | spacecraft data bus protocol
+SDOF | single degree of freedom
+SDP | safety data package
+SDRAM | synchronous dynamic random access memory
+SDS | Safety Data Sheet
+SDU | service data unit
+SEA | Sun exclusion angle
+SED | single event disturb
+SEHE | single event hard error
+SEPs | solar energetic particles
+SEREP | system equivalent reduction expansion process
+SESB | single event snapback
+SCD | source control drawing
+SCSB | Space Components Steering Board
+SDE | software development environment
+SEB | single event burn-out
+SEBO | single event burn-out
+SEDR | single event dielectric rupture
+SEE | single event effect
+SEF | spectral efficiency factor
+SEFI | single event functional interrupt
+SEGR | single event gate rupture
+SEL | single event latch-up
+SEM | scanning electron microscope
+SEPE | solar energetic particle event
+SET | single event transient
+SEU | single event upset
+SFT | system functional test
+SG | general specification
+SGICD | space-to-ground interface control document
+SHA | system hazard analysis
+SHIELDOSE | space shielding radiation dose calculations
+SID | structure identifier
+SLAR | single layer anti-reflection coating
+SMAC | spacecraft maximum allowable concentration
+SMD | surface mounted device
+SMS | specific mechanism specification
+SMT | surface-mount technology
+SOA | safe operating area
+SOD | small outline device
+SMA | sub miniature version A
+SMTP | simple mail transfer protocol
+SMU | single word multiple-bit upset
+SN | severity number
+SNR | signal-to-noise ratio
+SOI | silicon-on-insulator
+SOIC | small outline integrated circuits
+SOIS | spacecraft onboard interface services
+SOT | small outline transistor
+SOP | small outline package
+SOW | statement of work
+SP-L | split phase-level
+SPEC | specification
+SPA | software product assurance
+SPAMR | software product assurance milestone report
+SPAP | software product assurance plan
+SPC | statistical process control
+SPEL | synthetic parameter expression language
+SPENVIS | Space Environment Information System
+SPIDR | Space Physics Interactive Data Resource
+SPL | sound pressure level
+SPT | stationary plasma thruster
+SREM | Standard Radiation Environment Monitor
+SRP | solar radiation pressure
+SSAT | Sector Shielding Analysis Tool
+SI | international system of units
+SISO | single input - single output
+SPF | single point failure
+SPR | software problem report
+SSC | space system customer
+SSE | space segment element
+SHF | super-high frequency
+SSHA | subsystem hazard analysis
+SRAM | static random access memory
+SSNSAP | source subnetwork service access point
+SSORD | space segment operability requirements document
+SST | salt spray test
+ST | service type
+STC | star camera
+STEP | standard for the exchange of product
+STRV | Space Technology Research Vehicle
+SRM | solid rocket motor
+SRR | system requirements review
+SRRC | square-root raised-cosine
+SRS | shock response spectrum
+SV | sensitive volume
+SVF | software validation facility
+SWIR | short wavelength infrared
+SYNC | synchronisation object
+SYNCH | data bus system synchronization signal
+SSUM | space segment user manual
+STR | star tracker
+SVT | system validation test
+SVTL | safety verification tracking log
+SWE | software engineering
+SWS | secondary working standard
+SpW | SpaceWire
+Si | silicon
+T/C | thermal cycling
+TAM | test analysis model
+TBC | to be confirmed
+TBT | thermal balance test
+TBW | to be written
+TCA | thrust chamber assembly
+TDP | technical data package
+TDR | time domain reflectometry
+TED | triple error detection
+TEG | turbine exhaust gases
+TF | test fixture
+THB | temperature humidity bias
+TIDL | total ionizing dose level
+TIDS | total ionizing dose sensitivity
+TIFF | tagged image file format
+TLV | threshold limit value
+TM&TC | telemetry/telecommand
+TMAZ | thermo mechanically affected zone
+TMM | thermal mathematical model
+TOL | transport operations leader
+TOp | operating temperature
+TPDO | transmit PDO
+TPS | thermal protection system
+TQ | qualification temperature
+TRA | technology readiness assessment
+TRSL | technology readiness status list
+TSA | Trypticase Soy Agar
+TSC | time synchronization cycle
+TSM | temperature sensors monitor
+TSOP | thin small outline package
+TV-Test | thermal-vacuum test
+TAT | type approval test
+TB | thermal balance
+TBD | to be defined
+TBI | through-bulkhead initiator
+TBPC | to be provided by customer
+TBPM | to be provided by manufacturer
+TBPU | to be provided by user
+TBS | to be specified
+TCI | technology conformance inspection
+TCM | trellis-coded modulation
+TCS | thermal control system
+TCV | technological characterization vehicle
+TID | total ionising dose
+TL | deliverable output torque
+TM/TC | telemetry telecommand
+TML | total mass loss
+TNID | total non-ionising dose
+TNIDL | total non-ionizing dose level
+TNIDS | total non-ionizing dose sensitivity
+TO | transistor outline
+TP | technology plan
+TPHTE | two-phase heat transport equipment
+TPL | two-phase loop
+TPRO | test procedure
+TRL | technology readiness level
+TRP | temperature reference point
+TRPT | test report
+TSPE | test specification
+TT&C | telemetry tracking and command
+TTC | telemetry tracking and telecommand
+TVC | thrust vector control
+TWT | travelling wave tube
+Tj | junction temperature
+Tmin | minimum actuator torque required
+Top | operating temperature
+Tx | transmitter
+Th | thickness
+ToD | true of date
+UDMH | unsymmetrical-dimethylhydrazine
+UHF | ultra high frequency
+UM | user manual
+UQPSK | unbalanced quadrature phase shift keying
+ULPA | ultra-low-particle air filter
+UML | unified modelling language
+USSA | US standard atmosphere
+UVA | ultra-violet
+UVP | undervoltage protection
+UTC | universal time coordinated
+UTS | ultimate tensile strength
+UV | ultra violet
+UVR | ultraviolet reflector
+VCB | verification control board
+VCD | verification control document
+VCE | collector-emitter voltage
+VCHP | variable conductance heat pipe
+VCM | volatile condensable material
+VDT | visual damage threshold
+VHDL | vhsic hardware description language
+VHSIC | very high speed integrated circuit
+VAL | value definition language
+VE | virtual environment
+VRPT | verification report
+VSWR | voltage standing wave ratio
+VLSI | very large scale integration
+VP | verification plan
+VTS | vacuum thermal stability
+VUV | vacuum ultraviolet
+Vmp | maximum power voltage
+Vop | operational voltage
+Vtest | test voltage
+Vcc | power supply voltage
+Vrms | voltage root mean square
+WAT | wafer acceptance testing
+WBS | work breakdown structure
+WCA | worst case analysis
+WEEE | waste electrical and electronic equipment
+WFI | water for injection
+WMM | world magnetic model
+WP | work package
+WPS | welding procedure specification
+WPVR | welding procedure verification report
+WVR | water vapour regained
+WVTP | welding verification test plan
+WVTR | welding verification test report
+XML | extensible mark-up language
+a/c | crack aspect ratio
+dB | decibel
+cfu | colony forming unit
+emf | electro-motive force
+eV | electron volt
+epfd | equivalent power flux density
+fN | Nyquist frequency
+i.a.w | in accordance with
+i.d. | inside diameter
+inc | increment
+ft | ranging tone frequency
+ksps | kilo symbol per second
+lH | high wavelength limit
+lL | low wavelength limit
+lx | lux
+m/z | ratio mass to charge
+mg | milligram
+nT | nano-Tesla
+o.d. | outside diameter
+n.a. | not applicable
+ppm | part per million
+pH | hydrogen-ion concentration
+ppmv | parts per million volumetric
+rDNA | Ribosomal DNA
+sec | seconds
+sfu | solar flux unit
+sq | square
+°C | degree Celsius
+r.m.s. | root-mean-square
+sps | symbol per second
+AutoMAC | auto modal assurance criterion 
+CID | critical initial defect
+FEM | finite element model
+MSF | model scale factor
+PTH | plated through-holes
+PCFI | potential fracture critical item
+SO | space operation service 
+SR | space research service 

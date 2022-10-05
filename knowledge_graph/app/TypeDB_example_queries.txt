@@ -1,0 +1,62 @@
+######
+# Possible queries for EM KG 
+######
+##Values in "{}" have to be changed accordingly
+
+## Get overview of domains (subsystems) in KG: 
+
+match $dom isa DomainOfExpertise, has shortName $sname, has name $name; 
+                        get $sname, $name;
+
+## Get all elements from one domain of expertise (possible domains: {'AOC', 'AOGNC', 'COM', 'CONF', 'COST', 'CPROP', 'DET', 'DH', 'EDL', 'EMC', 'EPROP', 'GNC', 'GSO', 'INS', 'LCA', 'LCE', 'MEC', 'MIS', 'OPT', 'PROG', 'PWR', 'PYR', 'RAD', 'RISK', 'SE_RAD', 'SIM', 'STR', 'SYE', 'TC', 'TP'})
+
+match $ed isa ElementDefinition, has name $name;                       
+                        $dom isa DomainOfExpertise, has shortName "{DOE}"; 
+                        $rel($ed,$dom) isa Reference_owner;
+                        get $name;
+
+
+## What elements are contained in one or more iterations?
+match $ed1 isa ElementDefinition, has name $name1;                    
+                          $ed2 isa ElementDefinition, has name $name2;
+                          $name1 = $name2;
+                          $it1 isa Iteration, has id $id1; 
+                          $it2 isa Iteration, has id $id2;
+                          not {$id1  = $id2;};
+                          $cont1(isContained: $ed1,contains: $it1) isa Containment_element; 
+                          $cont2(isContained:$ed2,contains:$it2) isa Containment_element; 
+                          $te1 isa ElementDefinition, has name $namete1;
+                          $reftop1($it1, $te1) isa Reference_topElement;
+                          $te2 isa ElementDefinition, has name $namete2;
+                          $reftop2($it2, $te2) isa Reference_topElement; 
+                          not {$namete1 = $namete2;};
+                          get $name1;
+
+## In what missions is this Element contained in? 
+match $ed isa ElementDefinition, has name $nameed;
+                        $nameed = "Service Module";                  
+                        $it isa Iteration; 
+                        $cont1($ed,$it) isa Containment_element; 
+                        $te isa ElementDefinition, has name $namete;
+                        $reftop($it, $te) isa Reference_topElement;
+                        get $namete;
+
+## What mission have Element that contain the phrase? 
+match $ed isa ElementDefinition, has name $nameed;
+                        $nameed contains "{phrase}";                  
+                        $it isa Iteration; 
+                        $cont1($ed,$it) isa Containment_element; 
+                        $te isa ElementDefinition, has name $namete;
+                        $reftop($it, $te) isa Reference_topElement;
+                        get $namete, $nameed;
+
+## Get all parameters names for one element + get their values
+match $ed isa ElementDefinition, has name $nameed;
+                        $nameed = "{element}";
+                        $para isa Parameter; 
+                        $valueset isa ParameterValueSet, has published $publish;
+                        $convalue($para, $valueset) isa Containment_valueSet;
+                        $paratype isa ParameterType, has name $namept;
+                        $conpara($ed,$para) isa Containment_parameter;
+                        $refpara($paratype, $para) isa Reference_parameterType;
+                        get $namept, $publish;

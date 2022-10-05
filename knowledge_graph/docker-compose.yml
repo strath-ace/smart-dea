@@ -1,0 +1,19 @@
+version: "3"
+services:
+  typedb:
+    image: vaticle/typedb:2.10.0
+    tty: false
+    volumes:
+       - type_db:/opt/typedb-all-linux/server/data/
+    ports:
+      - 1729:1729
+  data_insertion:
+    build: ./
+    volumes:
+      - ./app:/app
+    tty: true
+    depends_on:
+      - typedb
+    network_mode: host
+volumes:
+  type_db:

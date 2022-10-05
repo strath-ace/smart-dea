@@ -1,0 +1,26 @@
+version: "3"
+services:
+  typedb:
+    image: vaticle/typedb:2.10.0
+    volumes:
+       - knowledge_graph_type_db:/opt/typedb-all-linux/server/data/
+    ports:
+      - 1729:1729
+    
+  jupyter:
+    build: ./jupyterlab
+    container_name: jupyter
+    ports:
+      - 10.182.6.2:8888:8888
+    user: root
+    depends_on:
+      - typedb
+    volumes:
+      - ./notebook:/home/jovyan/app
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "docker"
+      
+volumes:
+  knowledge_graph_type_db:
+      external: True

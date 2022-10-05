@@ -1,0 +1,54 @@
++-----------------------------+-----------------------------+
+|           Package           |           License           |
++-----------------------------+-----------------------------+
+|      certifi 2021.10.8      |           MPL-2.0           |
+|  charset-normalizer 2.0.12  |             MIT             |
+|         click 8.1.2         |         BSD-3-Clause        |
+|        colorama 0.4.4       |             BSD             |
+|        filelock 3.6.0       |          Unlicense          |
+|        grpcio 1.43.0        |      Apache License 2.0     |
+|    huggingface-hub 0.4.0    |            Apache           |
+|           idna 3.3          |         BSD-3-Clause        |
+|         joblib 1.1.0        |             BSD             |
+|       langcodes 3.2.1       |             MIT             |
+|          nltk 3.6.5         | Apache License, Version 2.0 |
+|         numpy 1.22.3        |             BSD             |
+|        packaging 21.3       |  BSD-2-Clause or Apache-2.0 |
+|         pandas 1.4.2        |         BSD-3-Clause        |
+|         pathy 0.6.1         |          Apache 2.0         |
+|         Pillow 9.1.0        |             HPND            |
+|          pip 22.0.4         |             MIT             |
+|      prettytable 3.3.0      |        BSD (3 clause)       |
+|       protobuf 3.15.5       |     3-Clause BSD License    |
+|        pydantic 1.8.2       |             MIT             |
+|       pyparsing 3.0.7       |         MIT License         |
+|    python-dateutil 2.8.2    |         Dual License        |
+|         pytz 2022.1         |             MIT             |
+|          PyYAML 6.0         |             MIT             |
+|       regex 2022.3.15       |   Apache Software License   |
+|       requests 2.27.1       |          Apache 2.0         |
+|      sacremoses 0.0.49      |           UNKNOWN           |
+|      scikit-learn 1.0.2     |           new BSD           |
+|         scipy 1.8.0         |             BSD             |
+| sentence-transformers 2.2.0 |      Apache License 2.0     |
+|     sentencepiece 0.1.96    |            Apache           |
+|      setuptools 62.0.0      |           UNKNOWN           |
+|          six 1.16.0         |             MIT             |
+|       smart-open 5.2.1      |             MIT             |
+|         spacy 3.2.0         |             MIT             |
+|      spacy-legacy 3.0.8     |             MIT             |
+|     spacy-loggers 1.0.1     |             MIT             |
+|         thinc 8.0.13        |             MIT             |
+|     threadpoolctl 3.1.0     |         BSD-3-Clause        |
+|      tokenizers 0.11.6      |      Apache License 2.0     |
+|         torch 1.11.0        |            BSD-3            |
+|      torchvision 0.12.0     |             BSD             |
+|         tqdm 4.64.0         |    MPLv2.0, MIT Licences    |
+|     transformers 4.17.0     |            Apache           |
+|     typedb-client 2.8.0     |          Apache-2.0         |
+|    typedb-protocol 2.6.0    |           AGPL-3.0          |
+|  typing-extensions 3.10.0.2 |             PSF             |
+|         ujson 5.1.0         |           UNKNOWN           |
+|        urllib3 1.26.9       |             MIT             |
+|        wcwidth 0.2.5        |             MIT             |
+|         wheel 0.37.1        |             MIT

@@ -1,0 +1,99 @@
+# --------------------------------------------------------------------------------------------------------------------
+# TypeDB Schema Layer Definition for UML model ECSS_E_TM_10_25 version 2.4.1.
+# Compatible with TypeDB (formely Grakn) version 2.0.1
+# Developed by Paul Darm (University of Strathclyde)
+# --------------------------------------------------------------------------------------------------------------------
+# typeDB schema to add Relationships with Similarity Factor on top of the ECSS-E-TM-10-25A schema
+
+define 
+
+# Define new relationship
+Reference_SimilarityFactor sub relation,
+    owns simFactor,
+    owns simFactorJaccard,
+    owns metadataLabel,
+    relates refersTo,
+    relates isReferredBy;
+
+# new Entity Definition ## allows to play similarityFactor relationship and own embeddings
+ElementDefinition  sub ElementBase,
+    owns s_bert_embedding,
+    plays Containment_containedElement:contains,
+    plays Containment_parameter:contains,
+    plays Containment_parameterGroup:contains,
+    plays Containment_element:isContained,
+    plays Reference_referencedElement:refersTo,
+    plays Reference_elementDefinition:isReferredBy,
+    plays Reference_topElement:isReferredBy,
+    plays Reference_rootElement:isReferredBy,
+    #new role
+    plays Reference_SimilarityFactor:refersTo,
+    plays Reference_SimilarityFactor:isReferredBy;
+
+## Allow parameter to play similarityFactor relationship and own embeddings
+## Metadata entries are defined as parameters in current setup 
+Parameter  sub ParameterOrOverrideBase,
+    owns allowDifferentOwnerOfOverride,
+    owns expectsOverride,
+    owns s_bert_embedding,
+    plays Containment_valueSet:contains,
+    plays Containment_parameter:isContained,
+    plays Reference_requestedBy:refersTo,
+    plays Reference_parameter:isReferredBy,
+    #new Role
+    plays Reference_SimilarityFactor:refersTo,
+    plays Reference_SimilarityFactor:isReferredBy;
+
+
+## Allow Requirement to play similarityFactor relationship + give embeddings attribute for calculation of similarity
+Requirement  sub SimpleParameterizableThing,
+    owns isDeprecated,
+    owns s_bert_embedding,
+    plays Containment_parametricConstraint:contains,
+    plays Containment_requirement:isContained,
+    plays Reference_group:refersTo,
+    plays Reference_category:refersTo, 
+    #new Role
+    plays Reference_SimilarityFactor:refersTo,
+    plays Reference_SimilarityFactor:isReferredBy;
+
+
+## Allow RequirementSpecification to play similarityFactor relationship
+RequirementsSpecification  sub RequirementsContainer,
+    owns isDeprecated,
+    owns s_bert_embedding,
+    plays Containment_requirement:contains,
+    plays Containment_requirementsSpecification:isContained, 
+    #new Role
+    plays Reference_SimilarityFactor:refersTo,
+    plays Reference_SimilarityFactor:isReferredBy;
+
+#Redefine Iteration entity
+Iteration  sub Thing,
+    owns sourceIterationIid,
+    plays Containment_option:contains,
+    plays Containment_publication:contains,
+    plays Containment_possibleFiniteStateList:contains,
+    plays Containment_element:contains,
+    plays Containment_relationship:contains,
+    plays Containment_externalIdentifierMap:contains,
+    plays Containment_requirementsSpecification:contains,
+    plays Containment_domainFileStore:contains,
+    plays Containment_actualFiniteStateList:contains,
+    plays Containment_ruleVerificationList:contains,
+    plays Containment_iteration:isContained,
+    plays Reference_iterationSetup:refersTo,
+    plays Reference_topElement:refersTo,
+    plays Reference_defaultOption:refersTo,
+    #new Role
+    plays Reference_SimilarityFactor:refersTo,
+    plays Reference_SimilarityFactor:isReferredBy;
+
+
+# Define new attributes
+s_bert_embedding sub attribute, value string;
+
+
+simFactor sub attribute, value double;
+simFactorJaccard sub attribute, value double;
+metadataLabel sub attribute, value string;

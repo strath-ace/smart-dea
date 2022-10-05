@@ -1,0 +1,74 @@
+# This Source Code Form is subject to the terms of the Mozilla Public ---------------------
+# License, v. 2.0. If a copy of the MPL was not distributed with this ---------------------
+# file, You can obtain one at http://mozilla.org/MPL/2.0/. */ -----------------------------
+# ---------------- Copyright (C) 2021 University of Strathclyde and Author ----------------
+# -------------------------------- Author: Audrey Berquand --------------------------------
+# ------------------------- e-mail: audrey.berquand@strath.ac.uk --------------------------
+
+# typeDB schema to add Metadata on top of the ECSS-E-TM-10-25A schema
+
+define
+
+# Allow ParameterGroup to play two new roles by redefining it.
+ParameterGroup  sub Thing,
+    owns name,
+    plays Containment_parameterGroup:isContained,
+    plays Reference_containingGroup:refersTo,
+    plays Reference_group:isReferredBy,
+    plays Reference_containingGroup:isReferredBy,
+    #new roles
+    plays Containment_participant:contains,
+    plays Containment_requirementsSpecification:contains;
+
+
+# Rule 1: link Participant entity to ParameterGroup if the name of ParameterGroup = Metadata
+rule LinkMetadataToParticipant:
+  when {
+    ## the condition
+    # there is a ParameterGroup with the name "Metadata"
+    $x isa ParameterGroup, has name 'Metadata';
+
+    # there is an engineering model, with an engineering model setup and a participant
+    $a isa EngineeringModel;
+    $b isa EngineeringModelSetup;
+    (refersTo: $a, isReferredBy: $b) isa Reference_engineeringModelSetup;
+    $p isa Participant;
+    (contains: $b, isContained:$p) isa Containment_participant;
+
+    # and there is an iteration linked to that engineering model, and referencing to an element defined as
+    # the topElement containing the metadata parameter group
+    $i isa Iteration;
+    (contains: $a, isContained: $i) isa Containment_iteration;
+    $d isa ElementDefinition;
+    (refersTo:$i, isReferredBy:$d) isa Reference_topElement;
+    (contains: $d, isContained: $x) isa Containment_parameterGroup;
+  } then {
+    ## link the Metadata entity to the Participant
+    (contains:$x, isContained: $p) isa Containment_participant;
+  };
+
+# Rule 2: link Requirements entity to ParameterGroup if the name of ParameterGroup = Metadata
+rule LinkMetadataToRequirement:
+  when {
+    ## the condition
+    # there is a ParameterGroup with the name "Metadata"
+    $x isa ParameterGroup, has name 'Metadata';
+
+    # and there is an iteration referencing an element defined as
+    # the topElement containing the metadata parameter group
+    $i isa Iteration;
+    $d isa ElementDefinition;
+    (refersTo:$i, isReferredBy:$d) isa Reference_topElement;
+    (contains: $d, isContained: $x) isa Containment_parameterGroup;
+
+    # this iteration also contains requirements specifications containing requirements
+    $a isa RequirementsSpecification;
+    (contains: $i, isContained:$a) isa Containment_requirementsSpecification;
+
+  } then {
+    ## link the Metadata entity to the Participant
+    (contains:$x, isContained: $a) isa Containment_requirementsSpecification;
+  };
+
+
+  
