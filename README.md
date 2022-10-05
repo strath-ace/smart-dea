@@ -46,10 +46,14 @@ Therefore, it is recommended to skip the steps of SW1 and start with the KG popu
 Information about the licenses of the used Python packages for SW2 can be found in the file `package_licenses.txt`.
 
 ## Team
-ESA T.O.: Serge Valera, serge.valera@esa.int  
+ESA T.O.: Serge Valera 
 ESA Support: Luis Mansilla,Audrey Berquand, Alberto Gonzalez Fernandez  
 Contractor: University of Strathclyde  
 Contractor team: Paul Darm, Annalisa Riccardi, Audrey Berquand, Edmondo Minisci
+
+## Contact
+paul.darm@strath.ac.uk
+annalisa.riccardi@strath.ac.uk
 
 
 
