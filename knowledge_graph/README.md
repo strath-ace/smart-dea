@@ -7,7 +7,7 @@ This file concentrates on how to define the schema, insert the data, and calcula
 
 ## Pre installation steps:
 - install docker on machine (tested on Docker Engine v20.10.13, Docker Compose version v2.3.3)
-- git clone https://gitlab.esa.int/Luis.Mansilla/osip-kb-ice.git
+- git clone this repository
 - **insert Engineering model (EM) files into `app/datasets/`**
 - **insert metadata files into `app/Metadata/`**
 
